@@ -207,7 +207,7 @@
 
 - (BOOL)locationManagerShouldDisplayHeadingCalibration:(CLLocationManager*)manager
 {
-    return YES;
+    return NO;
 }
 
 - (void)locationManager:(CLLocationManager*)manager
